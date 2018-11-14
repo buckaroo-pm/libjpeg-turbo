@@ -76,6 +76,7 @@ cxx_library(
   ], exclude = c_headers + glob([ 
     '*test.c', 
     '*example.c', 
+    '*bench.c', 
     'cjpeg.c', 
     'djpeg.c', 
     'turbojpeg-jni.c', 
